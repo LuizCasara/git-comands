@@ -6,12 +6,14 @@ To never lost some util command!
 - Change default editor -> `config --global core.editor 'code --wait'`
 - See git configs -> `git config --global -e`
 - Some util alias: 
-`
-	c = checkout
-	s = status -s
-	comm = add --all && git commit -m
-	l = log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 
+> c = checkout
+> 
+> s = status -s
+> 
+> comm = add --all && git commit -m
+> 
+> l = log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 `
 
 # postgres-sql
